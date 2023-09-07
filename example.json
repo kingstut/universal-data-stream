@@ -1,0 +1,30 @@
+{
+    "header": {
+        "format": "UDS",
+        "version": 1,
+        "sensorName": "accelerometer",
+        "sensorModel": "TA-789",
+        "sensorType": "Motion",
+        "dataUnit": 257,
+        "frequency": 50,
+        "metadata": {
+            "location": "Mobile Device",
+            "orientation": "Horizontal",
+            "additionalInfo": "Positioned near the device's center."
+        }
+    },
+    "data": [
+        {
+            "timestamp": 1677747200,
+            "values": [0.010, 0.002, 0.015]
+        },
+        {
+            "timestamp": 1677747300,
+            "values": [0.011, 0.001, 0.016]
+        }
+    ],
+    "footer": {
+        "checksum": "a1b2c3d4",
+        "annotations": "Data captured during light movements."
+    }
+}
