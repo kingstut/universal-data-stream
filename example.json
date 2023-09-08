@@ -2,13 +2,13 @@
     "header": {
         "format": "UDS",
         "version": 1,
-        "sensorName": "accelerometer",
-        "sensorModel": "TA-789",
-        "sensorType": "Motion",
+        "sensorName": "piezo",
+        "sensorModel": "BOS1901",
+        "sensorType": "Haptic",
         "dataUnit": 257,
         "frequency": 50,
         "metadata": {
-            "location": "Mobile Device",
+            "location": "Neck",
             "orientation": "Horizontal",
             "additionalInfo": "Positioned near the device's center."
         }
@@ -16,15 +16,15 @@
     "data": [
         {
             "timestamp": 1677747200,
-            "values": [0.010, 0.002, 0.015]
+            "values": [0.010]
         },
         {
             "timestamp": 1677747300,
-            "values": [0.011, 0.001, 0.016]
+            "values": [0.011]
         }
     ],
     "footer": {
         "checksum": "a1b2c3d4",
-        "annotations": "Data captured during light movements."
+        "annotations": "Data captured during work session."
     }
 }

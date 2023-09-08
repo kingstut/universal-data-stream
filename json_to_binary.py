@@ -3,7 +3,7 @@ import struct
 
 SENSOR_MAPPING = {
     'accelerometer': 1,
-    'temperature': 2,
+    'piezo': 2,
     # ... add more as required
 }
 
@@ -50,9 +50,9 @@ def json_to_binary(json_file, binary_file):
     header['sensorType'] = sensor_code
 
     # Define data format based on sensor type
-    if header['sensorType'] == 1:  # Assuming '1' for Motion (3-axis accelerometer)
+    if header['sensorType'] == 1: 
         data_format = '>fff'
-    elif header['sensorType'] == 2:  # Placeholder for other sensor types
+    elif header['sensorType'] == 2:  
         data_format = '>f'
     else:
         raise ValueError("Unsupported sensor type.")
